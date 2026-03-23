@@ -8,7 +8,8 @@
 
 import sys
 A, B = map(int, sys.stdin.readline().split())
-if -10000 <= A and B <= 10000 :
+if -10000 <= A <= 10000 and -10000 <= B <= 10000 :
+    pass
     if A > B :
         a = ">"
     elif A < B :
@@ -17,6 +18,6 @@ if -10000 <= A and B <= 10000 :
         a = "=="
 
 else :
-    pass
+    a = ""
 
 print(a)
