@@ -1,0 +1,12 @@
+# 백준 문제풀이     BAEKJOON Problem Solving
+
+#1001 A - B
+# 두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오. (0 < A, B < 10)
+# Write a program that takes two integers A and B as input and outputs A-B.
+
+import sys
+A, B = map(int, sys.stdin.readline().split())
+if 0 < A and B < 10 :
+    print(A-B)
+else :
+    pass
