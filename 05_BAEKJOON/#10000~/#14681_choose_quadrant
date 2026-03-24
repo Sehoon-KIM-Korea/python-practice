@@ -18,9 +18,9 @@ B
 if A > 0 and B > 0 :
     a = 1
 elif A > 0 and B < 0 :
-    a = 2
-elif A < 0 and B > 0 :
     a = 4
+elif A < 0 and B > 0 :
+    a = 2
 else :
     a = 3
 print(a)

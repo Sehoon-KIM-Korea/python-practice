@@ -17,4 +17,4 @@ elif n%400 == 0 :
 else : 
     a = 0
 
-print(n%4, n%100, n%400, a)
+print(a)
