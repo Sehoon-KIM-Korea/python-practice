@@ -9,6 +9,5 @@
 import sys
 
 a, b = map(int, sys.stdin.readline().split())
-n = a * b
-print(a*b, n)
+print(a*b)
 

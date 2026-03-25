@@ -1,0 +1,12 @@
+# 백준 문제풀이     BAEKJOON Problem Solving
+
+#2438 별 찍기
+
+#첫째 줄에는 별 1개, 둘째 줄에는 별 2개, N번째 줄에는 별 N개를 찍는 문제
+
+# s.t. time : 1sec, memory : 128MB
+
+n = int(input())
+
+for i in range(n) :
+    print("*"*(i+1))
