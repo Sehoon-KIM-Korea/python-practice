@@ -10,8 +10,6 @@
 
 import sys
 
-result = ""
-
 T = int(input())
 
 input = sys.stdin.readline
@@ -20,9 +18,10 @@ for i in range(T) :
     R, S = input().split()
     R = int(R)
 
+    result = ""
+
     for j in S :
         result += j*R
 
-
-print(result)
+    print(result)
 
